@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image{
+            border-radius: 50%;
+        }
+        .username,.password,.submit{
+            padding:10px;
+        }
+        .submit{
+            background-color: rgb(48, 163, 2);
+            color:white;
+            padding:14px 18px ;
+            width:10%;
+            margin:10px 0;    
+        }
+        .form{
+            
+            padding:30px 30px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+            <img src="E:\img_avatar2.png" alt="image" width="200px" height="200px" class="image"><br />
+        <div class="username">
+            <label for="Username"><b>Username</b></label><br />
+            <input type="text" name="Username" placeholder="Enter Username">
+        </div>
+        <div class="password">
+            <label for="Password"><b>Password</b></label><br />
+            <input type="Password" name="Password" placeholder="Enter password">
+        </div>
+        <div class="submit">
+            <input type="submit" value="login"><br />
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" value="Remember me">Remember Me <br />
+        </div>
+        <div class="cancel">
+            <input type="submit" value="cancel">
+            forgot <a href=""> password</a>
+        </div>
+    </form>
+</body>
+</html>
