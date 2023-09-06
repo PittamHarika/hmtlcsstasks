@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            background-color: rgb(31, 101, 4);
+            height: 100px;
+            flex-direction: column;
+            align-items: center;
+        }
+        table{
+            background-color:green;
+            padding-top:16px;
+            padding-bottom: 16px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .registration-form{
+            justify-content: center;
+            display:flex;
+            background-color:green ;
+            align-items: center;
+            
+        }
+        th{
+            color:white;
+            text-align:left;
+        }
+        
+        .registration-form .submit{
+            background-color: white;
+            width:100%;
+            padding:10px 0;
+            border-radius:32px;
+            
+            display:flex;
+        }
+           
+    </style>
+</head>
+<body>
+    <form class="Registration-form">
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td><input type="text" name="Name"></td>
+            </tr>
+
+            <tr>
+                <th>Email:</th>
+                <td><input type="Email" name="Email"></td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td><input type="Password" name="password"></td>
+            </tr>
+            <tr>
+                <th>Phone Number:</th>
+                <td><input type="number" name="phone nunber"></tr>
+            </tr>
+            <tr>
+                <th class="Gender">Gender:</th>
+                <td>Male:<input type="radio" name="gender" id="Male" value="Male">
+                Female:<input type="radio" name="gender" id="Female" value="Female">
+                Others:<input type="radio" name="gender" id="Others" value="Others"></td>
+            </tr>
+            <tr>
+                <th>Languages:</th>
+                <td>
+                    <select>
+                        <option value=" ">select language</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Zip code:</th>
+                <td><input type="number" name="number"</td>
+            </tr>
+            <tr>
+                <th>About:</th>
+                <td><textarea type="text" name="text" placeholder="Write about yourself..."></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" class="submit" value="Register"</td>
+            </tr>
+            
+            
+            
+        </table>
+        
+            
+    </form>
+    
+</body>
+</html>
